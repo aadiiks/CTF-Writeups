@@ -1,0 +1,36 @@
+Web:
+
+Fuzzing : http://65.2.6.176:6008/
+
+Post_me: http://65.2.6.176:8003/
+
+Enum: http://65.2.6.176:7003/
+
+Fetch_me: http://65.2.6.176:8007/
+
+Find_me: http://65.2.6.176:9009/
+
+
+Misc:
+
+1. Founder: https://drive.google.com/file/d/1uAOHxyRV63Qn3gDmZWDa6-dZzmH6qVOU/view?usp=sharing
+
+2. Hex :  https://drive.google.com/file/d/1_8Gwe0lEpcLfcVCv3vvTG7nStS8R9Fl1/view?usp=sharing
+
+3. Steg_Mirror: https://drive.google.com/file/d/1HHB9Rzbxf2rd_2kbC4craJ44bRvyAKv_/view?usp=sharing
+
+
+Reverse:
+
+Hitpass: https://drive.google.com/file/d/1dlGv1nsZlc70Jy5D54wjcQtMny6I36so/view?usp=sharing
+
+2. Goofy: https://drive.google.com/file/d/1NcEP7ab77_539E09fu5lqtLSXHJsNSGa/view?usp=sharing
+
+
+Cryptography
+
+Agent_cat: https://drive.google.com/file/d/13NWZXRYW6Jfe_w_hLM2BLB_Q_boJ093z/view?usp=sharing
+
+2. Double_trouble:  DJWbMJE5LHAHEagWK2uuqTIsMT91LzkyK2IhL3W5pUEco259
+
+3. Vision: https://drive.google.com/file/d/1Cus7IsGwSn85C_WXP6zt5aDeVg7fvdG5/view?usp=sharing
