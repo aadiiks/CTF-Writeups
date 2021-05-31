@@ -63,13 +63,13 @@ So for this challenge we were provided with a line of text which seems encoded i
 
 Earlier I used a software name ```Decodify``` which can be found on [github](https://github.com/s0md3v/Decodify).
 
-![decodify](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/crypto/agent_cat/decodify.JPG "Used Package")
+![decodify](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/crypto/double_trouble/decodify.JPG "Used Package")
 
 This package is capable of decrypting most commonly used hashes even if they are multiple encrypted. And the above problem stated itself that it's double encoded.
 
 So, just put it on the terminal with the command as: ``` dcode DJWbMJE5LHAHEagWK2uuqTIsMT91LzkyK2IhL3W5pUEco259 ```.
 
-![dcode](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/crypto/agent_cat/decode.JPG "Dcode Kali")
+![dcode](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/crypto/double_trouble/dcode.JPG "Dcode Kali")
 
 Our attempt failed but it gave us a clue that the text was encoded in ```base64``` as it showed curly braces in the end.
 
@@ -81,7 +81,7 @@ Url as: [Dcode](https://gchq.github.io/CyberChef/#recipe=Magic(3,false,false,'')
 
 As it's clear from the image,
 
-![dcoded text](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/crypto/agent_cat/cyberchef.JPG "Dcoded Text")
+![cyberchef](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/crypto/double_trouble/cyberchef.JPG "Dcoded Text")
 
 we got our flag converted from ```base64``` using some special conditions.
 
@@ -93,28 +93,30 @@ Flag was: AbhedyaCTF{I_hate_double_encryption}
 
 So for this challenge we were provided with a drive link as ```https://drive.google.com/file/d/1Cus7IsGwSn85C_WXP6zt5aDeVg7fvdG5/view?usp=sharing```. After visiting the link we were provided with ```OCR.png``` file. It contained an image with shuffled text in it.
 
-![ocr image](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/crypto/vision/OCR.png "ocr image")
+![ocr](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/crypto/vision/OCR.png "ocr image")
 
 As we can see their is some text that seems like flag but in shuffled form.
 It's highlighted in the image below.
 
-![ocr highlight image](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/crypto/vision/ocr_highlighter.JPG "ocr highlighted image")
+![ocr highlighted](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/crypto/vision/ocr_highlighter.JPG "ocr highlighted image")
 
 So, we went to an online [OCR to word converter](https://www.onlineocr.net/).
 
 As we can see in the image below the text is generated.
 
-![ocr converted]((https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/crypto/vision/ocr_to_text.JPG "ocr converted")
+![ocr to text](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/crypto/vision/ocr_to_text.JPG "ocr converted")
 
 The text was as:
 
-``` Punxenf unir bayl erpragyl orpbzr zber jryy-xabja, jvgu gur tebjgu va cbchynevgl bs Ibtn naq Arj Ntr cuvybfbcuvrf va trareny. Gurl ner n pbzcyrk naq napvrag raretl flfgrz gung bevtvangrq va Vaqvn. Gurl jrer svefg zragvbarq va gur Irqnf, napvrag fnperq grkgf bs fcvevghny xabjyrqtr qngvat sebz 1500 gb 1000 OR Gurer'f n ybg bar pna fghql nobhg gurz.NourqlnPGS{PUNXEN_UVFGBEL}Punxen (pnxen va Fnafxevg) zrnaf "furry" naq ersref gb raretl cbvagf va lbhe obql. Gurl ner gubhtug gb or fcvaavat qvfxf bs raretl gung fubhyq fgnl "bora" naq nyvtarq, of gurl pbeerfcbaq gb ohaqyrf bs areirf, znwbe betnaf, naq nernf bs bhe raretrgvp obql gung nssrpg bhe rzbgvbany naq culfvpny jryy-orvat. Fbzr fnl gurer ner 114 qvssrerag punxenf, ohg gurer ner frira znva punxenf gung eha nybat lbhe fcvar. Gurfr ner gur punxenf gung zbfg bs hf ner ersreevat gb jura jr gnyx nobhg gurz. ```
+``` 
+Punxenf unir bayl erpragyl orpbzr zber jryy-xabja, jvgu gur tebjgu va cbchynevgl bs Ibtn naq Arj Ntr cuvybfbcuvrf va trareny. Gurl ner n pbzcyrk naq napvrag raretl flfgrz gung bevtvangrq va Vaqvn. Gurl jrer svefg zragvbarq va gur Irqnf, napvrag fnperq grkgf bs fcvevghny xabjyrqtr qngvat sebz 1500 gb 1000 OR Gurer'f n ybg bar pna fghql nobhg gurz.NourqlnPGS{PUNXEN_UVFGBEL}Punxen (pnxen va Fnafxevg) zrnaf "furry" naq ersref gb raretl cbvagf va lbhe obql. Gurl ner gubhtug gb or fcvaavat qvfxf bs raretl gung fubhyq fgnl "bora" naq nyvtarq, of gurl pbeerfcbaq gb ohaqyrf bs areirf, znwbe betnaf, naq nernf bs bhe raretrgvp obql gung nssrpg bhe rzbgvbany naq culfvpny jryy-orvat. Fbzr fnl gurer ner 114 qvssrerag punxenf, ohg gurer ner frira znva punxenf gung eha nybat lbhe fcvar. Gurfr ner gur punxenf gung zbfg bs hf ner ersreevat gb jura jr gnyx nobhg gurz.
+```
 
-So for deshuffling we hop to (quipquip)[https://www.quipqiup.com/] and paste the converted text and click solve.
+So for deshuffling we hop to [quipquip](https://www.quipqiup.com/) and paste the converted text and click solve.
 
 This website is capable of deshuffling in all possible combinations. In our case we found the flag in first combination.
 
-![ocr solved](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/crypto/vision/solved.JPG "solved ocr image")
+![solved](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/crypto/vision/solved.JPG "solved ocr image")
 
 Flag was: ``` AbhedyaCTF{CHAKRA_HISTORY} ```
 
@@ -136,7 +138,7 @@ It seemed like a normal .png image file.
 
 For checking if anything was embedded in the image we run the command ```strings Hexeditor.png```. The flag was visible in the last line.
 
-![png string](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/crypto/vision/png_string.JPG "strings pnd image")
+![png string](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/misc/hex/png_string.JPG "strings pnd image")
 
 Flag was: ```AbhedyaCTF{png_to_hex} ```
 
@@ -152,11 +154,11 @@ So, we used google reverse engineering technique for finding the name of the bui
 
 So, we shifted to google image browser and uploaded the picture in the search bar as shown in the image below.
 
-![google image](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/crypto/vision/google_image.JPG "google image section")
+![google image](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/misc/owner/google_image.png "google image section")
 
 So, we were provided with the name of the building.
 
-![hotel search](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/crypto/vision/hotel_search.JPG "hotel name")
+![hotel search](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/misc/owner/hotel_search.JPG "hotel name")
 
 The building name was ``` regency apartment hotel in menlyn pretoria ```
 
@@ -176,7 +178,7 @@ We run few tools like `exiftool` , `binwalk` and `strings` on it to check whethe
 
 At last but not the least we used the ```stegsolve.jar``` tool available on [github](https://github.com/zardus/ctf-tools/blob/master/stegsolve/install)
 
-![stegsolve github](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/crypto/vision/stegsolve_github.JPG "stegsolve")
+![stegsolve github](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/misc/steg_mirror/stegsolve_github.JPG "stegsolve")
 
 It can be runned by heading to the directory if not added to ```/bin``` in kali and typing the command in terminal
 ``` java -jar stegsolve.jar ```
@@ -184,9 +186,9 @@ It can be runned by heading to the directory if not added to ```/bin``` in kali 
 Going to the directory and selecting the image and after changing the filters using right-left arrows we got our flag in ```Red Plane 0``` filter.
 
 
-![stegsolve using](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/crypto/vision/stegsolve_run.JPG "stegsolve using")
+![stegsolve using](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/misc/steg_mirror/stegsolve_run.JPG "stegsolve using")
 
-![stegsolve solution](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/crypto/vision/stegsolve_flag.JPG "stegsolve solution")
+![stegsolve solution](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/misc/steg_mirror/stegsolve_flag.JPG "stegsolve solution")
 
 Flag was : ``` AbhedyCTF{patterns_are_different_mirrors} ```
 
