@@ -23,7 +23,7 @@
 
 
 ## 1. Crypto
----
+
 #### 1.1 Agent Cat
 So for this challenge we were provided with a drive link as ```https://drive.google.com/file/d/13NWZXRYW6Jfe_w_hLM2BLB_Q_boJ093z/view?usp=sharing```. After visiting the link we were provided with `AGENTCAT.txt` file. It contained some readable text on the above few lines so we removed that and all the unneccessary new lines i.e. \n.
 Then the text seem like.
@@ -126,8 +126,6 @@ Flag was: ``` AbhedyaCTF{CHAKRA_HISTORY} ```
 
 ## 2. Misc
 
----
-
 ### 2.1 Hex
 
 For this challenge we were provided with a drive link as 
@@ -198,7 +196,6 @@ Flag was : ``` AbhedyCTF{patterns_are_different_mirrors} ```
 
 ## 3. Reverse
 
----
 
 ### 3.1 Goofy
 
