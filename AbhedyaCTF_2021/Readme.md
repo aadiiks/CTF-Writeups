@@ -195,3 +195,41 @@ Flag was : ``` AbhedyCTF{patterns_are_different_mirrors} ```
 ---
 
 ---
+
+## 3. Reverse
+
+---
+
+### 3.1 Goofy
+
+For this challenge we were provided with a drive link as
+```https://drive.google.com/file/d/1NcEP7ab77_539E09fu5lqtLSXHJsNSGa/view?usp=sharing```
+After visiting the link we were provided with ```goofy``` file.
+
+After running ```file goofy``` we came to know its a ```GO Lang``` file.
+Sorry to say but We were unable to solve this challenge.
+
+---
+
+### 3.2 Hitpass
+
+For this challenge we were provided with a drive link as
+```https://drive.google.com/file/d/1dlGv1nsZlc70Jy5D54wjcQtMny6I36so/view?usp=sharing```
+After visiting the link we were provided with ```a.out``` file. 
+After googling we found
+```
+out is a file format used in older versions of Unix-like computer operating systems for executables, object code, and, in later systems, shared libraries.
+```
+
+So we first run ```cat a.out``` to check what's inside the file.
+
+We were itself provided with the flag in the terminal.
+
+![output](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/reverse/hitpass/output.JPG "cat output terminal")
+
+Flag was: ``` AbhedyaCTF{you_hit_the_right_pass} ```
+
+---
+
+---
+
