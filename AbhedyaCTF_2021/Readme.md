@@ -50,6 +50,7 @@ cat AGENTCAT.txt | base64 -d > image.jpg
 ```
 
 The image was obtained and flag was visible on the bottom part.
+
 ![image](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/crypto/agent_cat/image.jpg "Cat Image")
 
 Flag was: ``` AbhedyaCTF{Y0_Ag3n7_CAt) ```
@@ -244,8 +245,11 @@ We were prompted with a page like:
 As the most recommened step is to first check the ```robots.txt``` of every challenge as most details are found their.
 
 So, we went to ``` https://65.2.6.176:7003/robots.txt ```.
+
 ![page flag](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/web/enum/page_flag.JPG "flag on page")
+
 And we found the flag.
+
 Flag was: ``` AbhedyaCTF{7h3_cl@ss1c_r0b07s_f1l3} ```
 
 ---
@@ -259,12 +263,13 @@ We were provided with an interface that behaved like terminal.
 ![page visit](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/web/fetch_me/page_visit.JPG "visiting the page")
 
 We choose the ```ls``` option and clicked on execute.
-![page_request](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/web/enum/page_request.JPG "sending request")
+
+![page_request](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/web/fetch_me/page_request.JPG "sending request")
 
 We can notice two page names were displayed on the screen.
 As we were already on the ``` index.php ``` page, so we edited the url to ``` http://65.2.6.176:8007/flag.txt ```. And we found our flag.
 
-![page flag](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/web/enum/page_flag.JPG "flag on page")
+![page flag](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/web/fech_me/page_flag.JPG "flag on page")
 
 
 ##### Another way was using the BurpSuite and changing the command line found in the request section.
