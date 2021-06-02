@@ -218,7 +218,7 @@ After googling we found
 out is a file format used in older versions of Unix-like computer operating systems for executables, object code, and, in later systems, shared libraries.
 ```
 
-So we first run ```cat a.out``` to check what's inside the file.
+So we first run ```bash cat a.out``` to check what's inside the file.
 
 We were itself provided with the flag in the terminal.
 
@@ -230,3 +230,102 @@ Flag was: ``` AbhedyaCTF{you_hit_the_right_pass} ```
 
 ---
 
+## 4. Web
+
+### 4.1 Enum
+
+For this challenge we were provided with an ip address as ``` http://65.2.6.176:7003/ ```
+
+So, first we visited the page to check whats in their.
+
+We were prompted with a page like:
+![page visit](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/web/enum/page_visit.JPG "visiting the page")
+
+As the most recommened step is to first check the ```robots.txt``` of every challenge as most details are found their.
+
+So, we went to ``` https://65.2.6.176:7003/robots.txt ```.
+![page flag](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/web/enum/page_flag.JPG "flag on page")
+And we found the flag.
+Flag was: ``` AbhedyaCTF{7h3_cl@ss1c_r0b07s_f1l3} ```
+
+---
+
+### 4.2 Fetch Me
+
+For this challenge we were provided with an ip address as ``` http://65.2.6.176:8007/ ```
+
+So, first we visited this page to check whats in their.
+We were provided with an interface that behaved like terminal.
+![page visit](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/web/fetch_me/page_visit.JPG "visiting the page")
+
+We choose the ```ls``` option and clicked on execute.
+![page_request](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/web/enum/page_request.JPG "sending request")
+
+We can notice two page names were displayed on the screen.
+As we were already on the ``` index.php ``` page, so we edited the url to ``` http://65.2.6.176:8007/flag.txt ```. And we found our flag.
+
+![page flag](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/web/enum/page_flag.JPG "flag on page")
+
+
+##### Another way was using the BurpSuite and changing the command line found in the request section.
+
+---
+
+### 4.3 Find Me
+
+For this challenge we were provided with an ip address as ``` http://65.2.6.176:9009/ ```
+
+So, first we visited this page to check whats in their.
+We were prompted with a page like:
+![page visit](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/web/find_me/page_visit.JPG "visiting the page")
+
+So, we went to ```robots.txt``` page but found nothing. Then checked the page source but found nothing.
+
+Then, we run a Gobuster directory scan on the ip with the following command.
+
+```bash
+root@kali:~# gobuster dir -u http://65.2.6.176:9009/ -w /usr/share/wordlists/dirb/common.txt
+```
+
+It provided with many pages but they were not worth it. 
+At last it provided us with a directory named security.
+
+![page_scan](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/web/find_me/page_scan.JPG "scanning the page")
+
+So, we went to the URL: ``` http://65.2.6.176:9009/security/ ```
+
+![page flag](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/web/find_me/page_flag.JPG "page with flag")
+
+Here we found the flag.
+
+Flag was: ``` AbhedyaCTF{h1d1ng_1n_@_d1r_w@sn7_@_g00d_1d3@} ```
+
+---
+
+### 4.4 Fuzzing
+
+For this challenge we were provided with an ip address as ``` http://65.2.6.176:6008/ ```
+So, first we visited this page to check what's in their.
+We were prompted with a page like:
+![page visit](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/web/fuzzing/page_visit.JPG "visiting the page")
+
+I tried using various method but couldn't find a way through.
+
+---
+
+### 4.5 Post Me
+
+For this challenge we were provided with an ip address as ``` http://65.2.6.176:8003/ ```
+So, first we visited this page to check what's in their.
+We were prompted with a page like:
+![page visit](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/web/post_me/page_visit.JPG "visiting the page")
+
+As we know that we can make a request to a web server or an ip using the ```curl``` package.
+And the page itself described we need to make a ```post request```.
+So, we used the command
+```bash
+root@kali:~# curl -X POST http://65.2.6.176:8003/
+```
+
+We got a request in the terminal from the server side containing the flag.
+![page flag](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/web/post_me/page_flag.JPG "page with flag")
