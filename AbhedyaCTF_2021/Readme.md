@@ -329,3 +329,5 @@ root@kali:~# curl -X POST http://65.2.6.176:8003/
 
 We got a request in the terminal from the server side containing the flag.
 ![page flag](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/web/post_me/page_flag.JPG "page with flag")
+
+Flag was: ```AbhedyaCTF{P0S7_r3q3us7_f7w}```
