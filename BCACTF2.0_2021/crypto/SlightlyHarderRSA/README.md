@@ -3,10 +3,12 @@
 
 2) This is enough for [RSACTFtool](https://github.com/Ganapati/RsaCtfTool) to solve it for us
 
-3) ```python
+```python
 RsaCtfTool/RsaCtfTool.py --uncipher 811950322931973288295794871117780672242424164631309902559564 -n 947358141650877977744217194496965988823475109838113032726009 -e 65537 --private
 ```
-4) Output
+
+3) Output
+
 ```bash
 Unciphered data :
 HEX : 0x000000006263616374667b7273615f666163746f72696e677d
@@ -15,4 +17,4 @@ INT (little endian) : 7871738449339370249336070705031638132956850540572477562552
 STR : b'\x00\x00\x00\x00bcactf{rsa_factoring}'
 ```
 
-5) Flag: ```bcactf{rsa_factoring}```
+Flag: ```bcactf{rsa_factoring}```

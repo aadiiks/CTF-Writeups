@@ -116,10 +116,11 @@ echo -e "abcdefghijklmnopqrstuvwxyz\n" | nc misc.bcactf.com 49156 | grep ctf &
 echo -e "abcdefghijklmnopqrstuvwxyz\n" | nc misc.bcactf.com 49156 | grep ctf &
 ```
 Execute  
+
 ```bash
 $ ./spin.sh
 $ bcactf{y0u_g0t_1ucKy_af23dd97g64n}
 ```
 
 
-fLAG - ```bcactf{y0u_g0t_1ucKy_af23dd97g64n}```
+Flag - ```bcactf{y0u_g0t_1ucKy_af23dd97g64n}```

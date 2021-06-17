@@ -25,4 +25,5 @@ or we could use ```' OR 2 --```
 5) We got the flag!
 
 ![flag](Screenshot_1.png)
+
 Flag: ```bcactf{gu3ss_th3r3s_n0_st0pp1ng_y0u!}```

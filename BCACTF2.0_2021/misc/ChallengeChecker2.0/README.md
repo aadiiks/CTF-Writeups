@@ -15,7 +15,7 @@ New version, better security, right?
 ## Solution
 
 #### Bypassing the new version
-Comparing to [Challenge Checker](https://github.com/p1xxxel/ctf-writeups/blob/main/2021/BCACTF%202.0/Challenge%20Checker), we see from `requirements.txt` that the version has been upgraded to PyYAML 5.3.1 but it still has vulnerabilites.
+Comparing to [Challenge Checker](https://github.com/aadiiks/CTF-Writeups/tree/master/BCACTF2.0_2021/misc/ChallengeChecker), we see from `requirements.txt` that the version has been upgraded to PyYAML 5.3.1 but it still has vulnerabilites.
 
 Looking at https://hackmd.io/@harrier/uiuctf20,
 it seems that the update is to block special characters like `.` and `_`.

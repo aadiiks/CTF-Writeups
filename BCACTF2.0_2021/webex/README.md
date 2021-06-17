@@ -76,7 +76,7 @@ Flag - ```bcactf{1_tH1nK_tH3_CtF_w0u1D_b3_0v3r_bY_1O0_dAy5}```
 
 This is a basic cookie problem, you visit the website and log in as a guest. On opening Inspect element and you see the cookie with the following value
 
-![alt text](https://github.com/aadiiks/CTFs/blob/main/BCACTF%202.0/inspect.png?raw=true)
+![alt text](https://github.com/aadiiks/CTF-Writeups/blob/master/BCACTF2.0_2021/webex/inspect.png)
 
 When you try to turn the lights off it says you need to be the admin, just change the value from vampire to admin and turn off the lights which gives you the flag
 
@@ -95,7 +95,7 @@ Flag -  ```bcactf{c00k13s_s3rved_fr3sh_fr0m_th3_smart_0ven_cD7EE09kQ}```
 
 This is a basic SQL injection problem
 
-We input *‘ or 1=1--* as the username, which ends the sql syntax and makes the statement true giving us access to the flag
+We input ```‘ or 1=1--``` as the username, which ends the sql syntax and makes the statement true giving us access to the flag
 
 Flag - ```bcactf{s0_y0u_f04nd_th3_fl13r?}```
 
@@ -136,7 +136,7 @@ Content of file attached -
 This is similar to Movie-Login-1 but this time there's some input sanitation. The file provided gives us the the inputs getting sanatised
 
 So we modify our input to be -
-*' or true--*
+```' or true--```
 
 which still has the same meaning as the previous payload
 
@@ -174,10 +174,10 @@ Content of file attached -
 This is similar to Movie-Login-2 but this time there's some more input sanitation. The file provided gives us the the inputs getting sanatised
 
 So we modify our input to be -
-*' OR 2 LIKE 2--*
+```' OR 2 LIKE 2--```
 
-here *“2 LIKE 2”* gives us the boolean value *TRUE* , and *--* comments out rest of the sql command
+here ```“2 LIKE 2”``` gives us the boolean value *TRUE* , and *--* comments out rest of the sql command
 
-Flag - ```bcactf{gu3ss_th3r3s_n0_st0pp1ng_y0u!}```
+Flag: ```bcactf{gu3ss_th3r3s_n0_st0pp1ng_y0u!}```
 
 

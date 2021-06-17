@@ -2,23 +2,33 @@
 ![pic](CTF.png)
 | Challenge | Category |
 | ----------- | ----------- |
-| [BCA Mart](https://github.com/ivanchubb/CTF-Writeups/tree/main/2021/BCACTF%202.0/binex/BCA%20Mart) | Binex |
-| [Cipher Mishap](https://github.com/ivanchubb/CTF-Writeups/tree/main/2021/BCACTF%202.0/crypto/Cipher%20Mishap) | Crypto |
-| [Easy RSA](https://github.com/ivanchubb/CTF-Writeups/tree/main/2021/BCACTF%202.0/crypto/Easy%20RSA) | Crypto |
-| [Sailing Thru Decryption](https://github.com/ivanchubb/CTF-Writeups/tree/main/2021/BCACTF%202.0/crypto/Sailing%20Thru%20Decryption) | Crypto |
-| [Slightly Harder RSA](https://github.com/ivanchubb/CTF-Writeups/tree/main/2021/BCACTF%202.0/crypto/Slightly%20Harder%20RSA) | Crypto |
-| [Gerald's New Job](https://github.com/ivanchubb/CTF-Writeups/tree/main/2021/BCACTF%202.0/foren/Gerald's%20New%20Job) | Foren |
-| [Infinite Zip](https://github.com/ivanchubb/CTF-Writeups/tree/main/2021/BCACTF%202.0/foren/Infinite%20Zip) | Foren |
-| [Secure Zip](https://github.com/ivanchubb/CTF-Writeups/tree/main/2021/BCACTF%202.0/foren/Secure%20Zip) | Foren |
-| [Zstegosauraus](https://github.com/ivanchubb/CTF-Writeups/tree/main/2021/BCACTF%202.0/foren/Zstegosaurus) | Foren |
-| [Example Problem](https://github.com/ivanchubb/CTF-Writeups/tree/main/2021/BCACTF%202.0/misc/Example%20Problem) | Misc |
-| [I Can Haz Interwebz](https://github.com/ivanchubb/CTF-Writeups/tree/main/2021/BCACTF%202.0/misc/I%20Can%20Haz%20Interwebz) | Misc |
-| [Obligatory Discord Problem](https://github.com/ivanchubb/CTF-Writeups/tree/main/2021/BCACTF%202.0/misc/Obligatory%20Discord%20Problem)  | Misc |
-| [Agent Gerald](https://github.com/ivanchubb/CTF-Writeups/tree/main/2021/BCACTF%202.0/webex/Agent%20Gerald) | Webex |
-| [Countdown Timer](https://github.com/ivanchubb/CTF-Writeups/tree/main/2021/BCACTF%202.0/webex/Countdown%20Timer) | Webex |
-| [Home Automation](https://github.com/ivanchubb/CTF-Writeups/tree/main/2021/BCACTF%202.0/webex/Home%20Automation) | Webex |
-| [Movie-Login-1](https://github.com/ivanchubb/CTF-Writeups/tree/main/2021/BCACTF%202.0/webex/Movie-Login-1) | Webex |
-| [Movie-Login-2](https://github.com/ivanchubb/CTF-Writeups/tree/main/2021/BCACTF%202.0/webex/Movie-Login-2) | Webex |
-| [Movie-Login-3](https://github.com/ivanchubb/CTF-Writeups/tree/main/2021/BCACTF%202.0/webex/Movie-Login-3) | Webex |
+| [BCA Mart](https://github.com/aadiiks/CTF-Writeups/tree/master/BCACTF2.0_2021/binex/BCAMart) | Binex |
+| [Honors ABCs](https://github.com/aadiiks/CTF-Writeups/tree/master/BCACTF2.0_2021/binex/HonorsABCs) | Binex |
+| [Cipher Mishap](https://github.com/aadiiks/CTF-Writeups/tree/master/BCACTF2.0_2021/crypto/CipherMishap) | Crypto |
+| [Easy RSA](https://github.com/aadiiks/CTF-Writeups/tree/master/BCACTF2.0_2021/crypto/EasyRSA) | Crypto |
+| [Sailing Thru Decryption](https://github.com/aadiiks/CTF-Writeups/tree/master/BCACTF2.0_2021/crypto/SailingThruDecryption) | Crypto |
+| [Slightly Harder RSA](https://github.com/aadiiks/CTF-Writeups/tree/master/BCACTF2.0_2021/crypto/SlightlyHarderRSA) | Crypto |
+| [FNES](https://github.com/aadiiks/CTF-Writeups/tree/master/BCACTF2.0_2021/crypto/FNES) | Crypto |
+| [RSAtrix](https://github.com/aadiiks/CTF-Writeups/tree/master/BCACTF2.0_2021/crypto/RSAtrix) | Crypto |
+| [Gerald's New Job](https://github.com/aadiiks/CTF-Writeups/tree/master/BCACTF2.0_2021/foren/Gerald's_New_Job) | Foren |
+| [Infinite Zip](https://github.com/aadiiks/CTF-Writeups/tree/master/BCACTF2.0_2021/foren/Infinite_Zip) | Foren |
+| [Secure Zip](https://github.com/aadiiks/CTF-Writeups/tree/master/BCACTF2.0_2021/foren/Secure_Zip) | Foren |
+| [Zstegosauraus](https://github.com/aadiiks/CTF-Writeups/tree/master/BCACTF2.0_2021/foren/Zstegosaurus) | Foren |
+| [Challenge Checker](https://github.com/aadiiks/CTF-Writeups/tree/master/BCACTF2.0_2021/misc/ChallengeChecker) | Misc |
+| [Challenge Checker 2.0](https://github.com/aadiiks/CTF-Writeups/tree/master/BCACTF2.0_2021/misc/ChallengeChecker2.0) | Misc |
+| [Example Problem](https://github.com/aadiiks/CTF-Writeups/tree/master/BCACTF2.0_2021/misc/ExampleProblem) | Misc |
+| [Obligatory Discord Problem](https://github.com/aadiiks/CTF-Writeups/tree/master/BCACTF2.0_2021/misc/ObligatoryDiscordProblem)  | Misc |
+| [Welcome To The Casino](https://github.com/aadiiks/CTF-Writeups/tree/master/BCACTF2.0_2021/misc/WelcomeToTheCasino) | Misc |
+| [I Can Haz Interwebz](https://github.com/aadiiks/CTF-Writeups/tree/master/BCACTF2.0_2021/misc/iCanHaveInterwebz) | Misc |
+| [A Fun Game](https://github.com/aadiiks/CTF-Writeups/tree/master/BCACTF2.0_2021/rev/AFunGame) | Rev |
+| [Agent Gerald](https://github.com/aadiiks/CTF-Writeups/tree/master/BCACTF2.0_2021/webex/Agent_Gerald) | Webex |
+| [Countdown Timer](https://github.com/aadiiks/CTF-Writeups/tree/master/BCACTF2.0_2021/webex/Countdown_Timer) | Webex |
+| [Home Automation](https://github.com/aadiiks/CTF-Writeups/tree/master/BCACTF2.0_2021/webex/Home_Automation) | Webex |
+| [Movie-Login-1](https://github.com/aadiiks/CTF-Writeups/tree/master/BCACTF2.0_2021/webex/Movie_Login_1) | Webex |
+| [Movie-Login-2](https://github.com/aadiiks/CTF-Writeups/tree/master/BCACTF2.0_2021/webex/Movie_Login_2) | Webex |
+| [Movie-Login-3](https://github.com/aadiiks/CTF-Writeups/tree/master/BCACTF2.0_2021/webex/Movie_Login_3) | Webex |
+| [Regular Website](https://github.com/aadiiks/CTF-Writeups/tree/master/BCACTF2.0_2021/webex/Regular_Website) | Webex |
+| [Wasm Protected Site 1](https://github.com/aadiiks/CTF-Writeups/tree/master/BCACTF2.0_2021/webex/Wasm_Protected_Site_1) | Webex |
+| [Wasm Protected Site 2](https://github.com/aadiiks/CTF-Writeups/tree/master/BCACTF2.0_2021/webex/Wasm_Protected_Site_2) | Webex |
 
 - Unfortunately this time around I didn't really have the time to commit a whole weekend to the CTF.  I did pop in and out intermittently and managed to scoop up a few easy and some intermediate.  Hopefully when this is held next year i can commit more time to it and go through the challenges a bit more thuroughly.

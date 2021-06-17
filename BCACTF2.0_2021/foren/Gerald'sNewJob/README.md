@@ -13,7 +13,8 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 722826        0xB078A         Zlib compressed data, default compression
 723219        0xB0913         End of Zip archive, footer length: 22'
 ```
-3) ```bash
+
+```bash
 binwalk -e gerald.pdf 
 ```
 4) Gives us ![GeraldFlag.png](GeraldFlag.png)

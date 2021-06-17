@@ -68,6 +68,6 @@ d
 Correct! Current points: 1000
 Here's your flag: bcactf{h0p3fu1ly_y0U_d1dNt_actUa1ly_tYpe_1000_1ett3rs}
 ```
-flag was found.  
+
 
 Flag: ``` bcactf{h0p3fu1ly_y0U_d1dNt_actUa1ly_tYpe_1000_1ett3rs}```

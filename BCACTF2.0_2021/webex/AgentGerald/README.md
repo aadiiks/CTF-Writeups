@@ -25,7 +25,7 @@ What is a way webpages know what kind of browser you're using?
 # Solution
 When you visit the site, a mysterious page appears.  
 Welcome to the Stegosaurus Intelligence-6 Homepage  
-[site.png](site.png)  
+![page](Screenshot_2.png)
 User-Agent seems to be suspicious from the problem name.
 Set User-Agent to `Gerald` and try to get it as follows.
 ```bash
