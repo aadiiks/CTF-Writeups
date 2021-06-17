@@ -31,4 +31,4 @@
 | [Wasm Protected Site 1](https://github.com/aadiiks/CTF-Writeups/tree/master/BCACTF2.0_2021/webex/Wasm_Protected_Site_1) | Webex |
 | [Wasm Protected Site 2](https://github.com/aadiiks/CTF-Writeups/tree/master/BCACTF2.0_2021/webex/Wasm_Protected_Site_2) | Webex |
 
-- Unfortunately this time around I didn't really have the time to commit a whole weekend to the CTF.  I did pop in and out intermittently and managed to scoop up a few easy and some intermediate.  Hopefully when this is held next year i can commit more time to it and go through the challenges a bit more thuroughly.
+- Any pull requests are welcomed.
