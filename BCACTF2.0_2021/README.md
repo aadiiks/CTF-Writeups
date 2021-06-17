@@ -21,4 +21,4 @@
 | [Movie-Login-2](https://github.com/ivanchubb/CTF-Writeups/tree/main/2021/BCACTF%202.0/webex/Movie-Login-2) | Webex |
 | [Movie-Login-3](https://github.com/ivanchubb/CTF-Writeups/tree/main/2021/BCACTF%202.0/webex/Movie-Login-3) | Webex |
 
-- Unfortunately this time around I didn't really have the time to commit a whole weekend to the CTF.  I did pop in and out intermittently and managed to scoop up a few easy ones and 1525 points overall.  Hopefully when this is held next year i can commit more time to it and go through the challenges a bit more thuroughly.
+- Unfortunately this time around I didn't really have the time to commit a whole weekend to the CTF.  I did pop in and out intermittently and managed to scoop up a few easy and some intermediate.  Hopefully when this is held next year i can commit more time to it and go through the challenges a bit more thuroughly.
