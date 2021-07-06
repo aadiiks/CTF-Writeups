@@ -148,16 +148,17 @@ Flag was: ```AbhedyaCTF{png_to_hex} ```
 For this challenge we were provided with a drive link as 
 ```https://drive.google.com/file/d/1uAOHxyRV63Qn3gDmZWDa6-dZzmH6qVOU/view?usp=sharing```.
 After visiting the link it contained ``` hotel.jpg ``` image file.
+![hotel](https://i.imgur.com/S7cs7kx.jpeg "hotel image")
 As it was clear from the problem title we needed to find the name of the owner of the this building given in the image.
 So, we used google reverse engineering technique for finding the name of the building given.
 
 So, we shifted to google image browser and uploaded the picture in the search bar as shown in the image below.
 
-![google image](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/misc/owner/google_image.png "google image section")
+![google image](https://i.imgur.com/UHIaYTU.png "google image section")
 
 So, we were provided with the name of the building.
 
-![hotel search](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/misc/owner/hotel_search.JPG "hotel name")
+![hotel search](https://i.imgur.com/qdi2nnT.jpeg "hotel name")
 
 The building name was ``` regency apartment hotel in menlyn pretoria ```
 
@@ -177,7 +178,7 @@ We run few tools like `exiftool` , `binwalk` and `strings` on it to check whethe
 
 At last but not the least we used the ```stegsolve.jar``` tool available on [github](https://github.com/zardus/ctf-tools/blob/master/stegsolve/install)
 
-![stegsolve github](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/misc/steg_mirror/stegsolve_github.JPG "stegsolve")
+![stegsolve github](https://i.imgur.com/oo85l3U.jpeg "stegsolve")
 
 It can be runned by heading to the directory if not added to ```/bin``` in kali and typing the command in terminal
 ``` java -jar stegsolve.jar ```
@@ -185,9 +186,9 @@ It can be runned by heading to the directory if not added to ```/bin``` in kali 
 Going to the directory and selecting the image and after changing the filters using right-left arrows we got our flag in ```Red Plane 0``` filter.
 
 
-![stegsolve using](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/misc/steg_mirror/stegsolve_run.JPG "stegsolve using")
+![stegsolve using](https://i.imgur.com/pG9bx3u.jpeg "stegsolve using")
 
-![stegsolve solution](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/misc/steg_mirror/stegsolve_flag.JPG "stegsolve solution")
+![stegsolve solution](https://i.imgur.com/Hyin2fG.jpeg "stegsolve solution")
 
 Flag was : ``` AbhedyCTF{patterns_are_different_mirrors} ```
 
@@ -223,7 +224,7 @@ So we first run ```bash cat a.out``` to check what's inside the file.
 
 We were itself provided with the flag in the terminal.
 
-![output](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/reverse/hitpass/output.JPG "cat output terminal")
+![output](https://i.imgur.com/T8x8r6f.jpeg "cat output terminal")
 
 Flag was: ``` AbhedyaCTF{you_hit_the_right_pass} ```
 
@@ -240,13 +241,13 @@ For this challenge we were provided with an ip address as ``` http://65.2.6.176:
 So, first we visited the page to check whats in their.
 
 We were prompted with a page like:
-![page visit](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/web/enum/page_visit.JPG "visiting the page")
+![page visit](https://i.imgur.com/5RllND9.jpeg "visiting the page")
 
 As the most recommened step is to first check the ```robots.txt``` of every challenge as most details are found their.
 
 So, we went to ``` https://65.2.6.176:7003/robots.txt ```.
 
-![page flag](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/web/enum/page_flag.JPG "flag on page")
+![page flag](https://i.imgur.com/JPoi8yt.jpeg "flag on page")
 
 And we found the flag.
 
@@ -260,16 +261,16 @@ For this challenge we were provided with an ip address as ``` http://65.2.6.176:
 
 So, first we visited this page to check whats in their.
 We were provided with an interface that behaved like terminal.
-![page visit](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/web/fetch_me/page_visit.JPG "visiting the page")
+![page visit](https://i.imgur.com/6LAtCf8.jpeg "visiting the page")
 
 We choose the ```ls``` option and clicked on execute.
 
-![page_request](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/web/fetch_me/page_request.JPG "sending request")
+![page_request](https://i.imgur.com/JTnQtbe.jpeg "sending request")
 
 We can notice two page names were displayed on the screen.
 As we were already on the ``` index.php ``` page, so we edited the url to ``` http://65.2.6.176:8007/flag.txt ```. And we found our flag.
 
-![page flag](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/web/fech_me/page_flag.JPG "flag on page")
+![page flag](https://i.imgur.com/n2B0ZIk.jpeg "flag on page")
 
 
 ##### Another way was using the BurpSuite and changing the command line found in the request section.
@@ -282,7 +283,7 @@ For this challenge we were provided with an ip address as ``` http://65.2.6.176:
 
 So, first we visited this page to check whats in their.
 We were prompted with a page like:
-![page visit](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/web/find_me/page_visit.JPG "visiting the page")
+![page visit](https://i.imgur.com/ieoNblq.jpeg "visiting the page")
 
 So, we went to ```robots.txt``` page but found nothing. Then checked the page source but found nothing.
 
@@ -295,11 +296,11 @@ root@kali:~# gobuster dir -u http://65.2.6.176:9009/ -w /usr/share/wordlists/dir
 It provided with many pages but they were not worth it. 
 At last it provided us with a directory named security.
 
-![page_scan](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/web/find_me/page_scan.JPG "scanning the page")
+![page_scan](https://i.imgur.com/mOojJJp.jpeg "scanning the page")
 
 So, we went to the URL: ``` http://65.2.6.176:9009/security/ ```
 
-![page flag](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/web/find_me/page_flag.JPG "page with flag")
+![page flag](https://i.imgur.com/qoifcmA.jpeg "page with flag")
 
 Here we found the flag.
 
@@ -312,7 +313,7 @@ Flag was: ``` AbhedyaCTF{h1d1ng_1n_@_d1r_w@sn7_@_g00d_1d3@} ```
 For this challenge we were provided with an ip address as ``` http://65.2.6.176:6008/ ```
 So, first we visited this page to check what's in their.
 We were prompted with a page like:
-![page visit](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/web/fuzzing/page_visit.JPG "visiting the page")
+![page visit](https://i.imgur.com/Kd9zpwg.jpeg "visiting the page")
 
 I tried using various method but couldn't find a way through.
 
@@ -323,7 +324,7 @@ I tried using various method but couldn't find a way through.
 For this challenge we were provided with an ip address as ``` http://65.2.6.176:8003/ ```
 So, first we visited this page to check what's in their.
 We were prompted with a page like:
-![page visit](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/web/post_me/page_visit.JPG "visiting the page")
+![page visit](https://i.imgur.com/BMae4jF.jpeg "visiting the page")
 
 As we know that we can make a request to a web server or an ip using the ```curl``` package.
 And the page itself described we need to make a ```post request```.
@@ -333,6 +334,6 @@ root@kali:~# curl -X POST http://65.2.6.176:8003/
 ```
 
 We got a request in the terminal from the server side containing the flag.
-![page flag](https://github.com/aadiiks/CTF-Writeups/blob/master/AbhedyaCTF_2021/web/post_me/page_flag.JPG "page with flag")
+![page flag](https://i.imgur.com/H0lEMjj.jpeg "page with flag")
 
 Flag was: ```AbhedyaCTF{P0S7_r3q3us7_f7w}```
