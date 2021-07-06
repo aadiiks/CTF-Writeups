@@ -1,6 +1,6 @@
 # AbhedyaCTF 2021
 
-- [1. Crypto](#crypto)
+- [1. Crypto](#1-crypto)
     - [1.1 Agent Cat](#11-agent-cat)
     - [1.2 Double Trouble](#12-double-trouble)
     - [1.3 Vision](#13-vision)
