@@ -1,11 +1,5 @@
 # Challenge Name: opisthocomus-hoazin
 
-![date](https://img.shields.io/badge/date-15.06.2021-brightgreen.svg)  
-![solved in time of CTF](https://img.shields.io/badge/solved-in%20time%20of%20CTF-brightgreen.svg)   
-![crypto category](https://img.shields.io/badge/category-Cryptography-blueviolet.svg)   
-![value](https://img.shields.io/badge/value-300-blue.svg)  
-
-
 ## Description
 
 The plural of calculus is calculi.  

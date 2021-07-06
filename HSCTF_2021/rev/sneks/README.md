@@ -1,11 +1,5 @@
 # Challenge Name: sneks
 
-![date](https://img.shields.io/badge/date-17.06.2021-brightgreen.svg)  
-![solved in time of CTF](https://img.shields.io/badge/solved-in%20time%20of%20CTF-brightgreen.svg)   
-![reverse category](https://img.shields.io/badge/category-Reverse-blueviolet.svg)   
-![value](https://img.shields.io/badge/value-403-blue.svg)  
-
-
 ## Description
 
 https://www.youtube.com/watch?v=0arsPXEaIUY

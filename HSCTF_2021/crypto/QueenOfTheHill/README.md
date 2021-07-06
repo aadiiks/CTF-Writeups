@@ -1,11 +1,5 @@
 # Challenge Name: queen-of-the-hill
 
-![date](https://img.shields.io/badge/date-15.06.2021-brightgreen.svg)  
-![solved in time of CTF](https://img.shields.io/badge/solved-in%20time%20of%20CTF-brightgreen.svg)   
-![crypto category](https://img.shields.io/badge/category-Cryptography-blueviolet.svg)   
-![value](https://img.shields.io/badge/value-221-blue.svg)  
-
-
 ## Description
 
 After finding a special key of the Hill, which contains a note to visit the Queen of the Hill, our brave Amanda begins her adventure to find the Queen of the Hill’s treasure. How shall she meet the Queen of the Hill? (a=0)
