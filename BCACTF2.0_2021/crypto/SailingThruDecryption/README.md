@@ -1,6 +1,6 @@
-![question](Screenshot_2.png)
+![question](https://i.imgur.com/5zQ8D1J.png)
 1) Opening the image file gives
-![image](image.png)
+![image](https://i.imgur.com/Gu5D2GK.png)
 
 2) Googling "flag code french crypto" gives a [nautical flag tool](https://www.dcode.fr/maritime-signals-code) on dcode.fr
 

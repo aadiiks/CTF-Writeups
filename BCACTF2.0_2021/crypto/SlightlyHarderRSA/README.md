@@ -1,4 +1,4 @@
-![question](Screenshot_1.png)
+![question](https://i.imgur.com/t1HcxEm.png)
 1) Another RSA problem.  reading enc.txt we get values for n, e, and ciphertext
 
 2) This is enough for [RSACTFtool](https://github.com/Ganapati/RsaCtfTool) to solve it for us

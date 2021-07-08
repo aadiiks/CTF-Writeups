@@ -1,7 +1,9 @@
-![question](Screenshot_3.png)
+![question](https://i.imgur.com/OfR9cvk.png)
 1) Based on the hint, the question probably wants us to use zsteg
 
-2) ```zsteg zstegosaurus.png```
+```bash
+zsteg zstegosaurus.png
+```
 
 gives output:
 ```bash

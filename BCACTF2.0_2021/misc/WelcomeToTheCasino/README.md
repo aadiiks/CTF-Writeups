@@ -45,7 +45,7 @@ Link to the script : [solve.py](https://github.com/p1xxxel/ctf-writeups/blob/mai
 (While running the script, keep in mind it is in python2)
 
 To speed the process, I had to run this script in seven terminals and I got the following flag :
-![flag](https://github.com/p1xxxel/ctf-writeups/blob/main/2021/BCACTF%202.0/Welcome%20to%20the%20Casino/flag.png)
+![flag](https://i.imgur.com/8ZXK7fI.png)
 
 Flag : ```bcactf{y0u_g0t_1ucKy_af23dd97g64n}```
 

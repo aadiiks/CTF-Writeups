@@ -1,4 +1,4 @@
-![question](question.png)
+![question](https://i.imgur.com/wZiTV43.png)
 
 1) enc.txt contains p, q, n, e, and ciphertext values
 

@@ -1,4 +1,4 @@
-![question](Screenshot_1.png)
+![question](https://i.imgur.com/SVXLUhw.png)
 1) `unzip chall.zip` shows that it's password protected
 
 2) Lets try and crack it with john

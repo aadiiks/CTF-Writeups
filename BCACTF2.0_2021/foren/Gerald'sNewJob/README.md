@@ -1,4 +1,4 @@
-![Screenshot_1](Screenshot_1.png)
+![Screenshot_1](https://i.imgur.com/XlcGnem.png)
 1) Opening ["gerald.pdf"](gerald.pdf) gives a false flag of "bcactf{get_bamboozled_lol}":
 
 2) Looking a little deeper with `binwalk gerald.pdf` shows there is something hidden 
@@ -17,6 +17,6 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 ```bash
 binwalk -e gerald.pdf 
 ```
-4) Gives us ![GeraldFlag.png](GeraldFlag.png)
+4) Gives us ![GeraldFlag.png](https://i.imgur.com/pLxHrX1.png)
 
 Flag: ```bcactf{g3ra1d_15_a_ma5ter_p01yg1ot_0769348}```
