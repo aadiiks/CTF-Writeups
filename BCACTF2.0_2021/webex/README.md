@@ -76,7 +76,7 @@ Flag - ```bcactf{1_tH1nK_tH3_CtF_w0u1D_b3_0v3r_bY_1O0_dAy5}```
 
 This is a basic cookie problem, you visit the website and log in as a guest. On opening Inspect element and you see the cookie with the following value
 
-![alt text](https://github.com/aadiiks/CTF-Writeups/blob/master/BCACTF2.0_2021/webex/inspect.png)
+![alt text](https://i.imgur.com/M792eRv.png)
 
 When you try to turn the lights off it says you need to be the admin, just change the value from vampire to admin and turn off the lights which gives you the flag
 

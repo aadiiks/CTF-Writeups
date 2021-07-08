@@ -1,14 +1,14 @@
-![Question](Screenshot_3.png)
+![Question](https://i.imgur.com/TgkOwz7.png)
 
 1) Visiting the page gives us:
-![page](Screenshot_2.png)
+![page](https://i.imgur.com/eEr27xn.png)
 
 2) The text mentions using a special browser.  Websites know what browser or [user agent](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent) you are using based on your get request to the page.
 
 3) we can change that user agent value using [burpsuite](https://portswigger.net/burp)
-![burp](Screenshot_5.png)
+![burp](https://i.imgur.com/U1FRxaH.png)
 
-4) And we get the flag! ![flag](Screenshot_1.png)
+4) And we get the flag! ![flag](https://i.imgur.com/R0BuuiK.png)
 
 Flag: ```bcactf{y0u_h@ck3d_5tegos@urus_1nt3lligence}```
 
@@ -25,7 +25,7 @@ What is a way webpages know what kind of browser you're using?
 # Solution
 When you visit the site, a mysterious page appears.  
 Welcome to the Stegosaurus Intelligence-6 Homepage  
-![page](Screenshot_2.png)
+![page](https://i.imgur.com/Ettqv5p.png)
 User-Agent seems to be suspicious from the problem name.
 Set User-Agent to `Gerald` and try to get it as follows.
 ```bash
