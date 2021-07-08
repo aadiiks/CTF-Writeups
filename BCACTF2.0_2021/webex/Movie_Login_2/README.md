@@ -1,4 +1,4 @@
-![question](question.png)
+![question](https://i.imgur.com/iRgBL7S.png)
 1) At the link we are greeted with another login page.
 
 2)  the deny list shows that we can't use `[
@@ -15,6 +15,6 @@ another way was ```' OR true --```
 
 4) We got the flag!
 
-![flag](Screenshot_1.png)
+![flag](https://i.imgur.com/9kpJFlh.png)
 
 5) Flag: ```bcactf{h0w_d1d_y0u_g3t_h3r3_th1s_t1m3?!?}```

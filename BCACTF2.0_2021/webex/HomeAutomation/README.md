@@ -1,13 +1,13 @@
-![question](Screenshot_1.png)
+![question](https://i.imgur.com/1jIbA55.png)
 1) link takes us to a homepage with only option as "Log in as guest"; click it.
 
-2) try to turn off the lights: ![Screenshot_2](Screenshot_2.png)
+2) try to turn off the lights: ![Screenshot_2](https://i.imgur.com/jD7nDP7.png)
 
 3) turning the lights off gives us a message "You must be admin to turn off the lights. Currently you are "vampire".
 
 4) Viewing our cookies we see that our value in our cookie is set to "vampire". change that value to admin
 
-![admin](admin.png)
+![admin](https://i.imgur.com/wofhdKO.png)
 
 5) refresh page
 

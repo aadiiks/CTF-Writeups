@@ -11,8 +11,8 @@ How is the site sanitizing your input?
 
 When I accessed the site, the site was periodically blurred.
 Just a Regular Website  
-[site1.png](site/site1.png)  
-[site2.png](site/site2.png)  
+![site1.png](https://i.imgur.com/kF0YUdl.png)  
+![site2.png](https://i.imgur.com/VllBdiA.png)  
 You can post a comment and admin seems to see it.
 When I read the distributed source, I was interested in the following of server.ts
 ```ts

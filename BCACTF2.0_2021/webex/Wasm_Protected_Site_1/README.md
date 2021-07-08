@@ -9,7 +9,7 @@ How does the Web Assembly check the password you entered, and what is it looking
 # Solution
 When I visit the site, it seems that the login form is running in wasm.
 Wasm Protected Site 1  
-[site.png](site/site.png)  
+![site.png](https://i.imgur.com/IYTsns5.png)  
 Looking at the network, it seems that `http://web.bcactf.com:49157/code.wasm` is the main body (you can read js).
 Wget and look at the contents with strings.  
 ```bash
@@ -32,6 +32,6 @@ addr
 ```
 The flag was written.
 You may look at the debugger.
-![wasm.png](images/wasm.png)  
+![wasm.png](https://i.imgur.com/FQJqwNU.png)  
 
 Flag: ```bcactf{w4sm-m4g1c-xRz5}```

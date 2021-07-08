@@ -1,4 +1,4 @@
-![question](Screenshot_2.png)
+![question](https://i.imgur.com/le9cXkk.png)
 1) Another login page is at the link
 
 2) looking at the deny list `[
@@ -24,6 +24,6 @@ or we could use ```' OR 2 --```
 
 5) We got the flag!
 
-![flag](Screenshot_1.png)
+![flag](https://i.imgur.com/aKhTjmw.png)
 
 Flag: ```bcactf{gu3ss_th3r3s_n0_st0pp1ng_y0u!}```

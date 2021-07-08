@@ -12,7 +12,7 @@ When I visit the site, it seems that the login form is running in wasm as well a
 Looking at the network, it seems that `http://web.bcactf.com:49158/code.wasm` is also the main body (you can read js).
 You can't get anything with wget and strings.
 Looking at the debugger, it was as follows.
-! [wasm.png] (images / wasm.png)
+![wasm.png](https://i.imgur.com/jKAikMi.png)
 It seems that the character string is encrypted, so read it in order from the top.
 ```wasm
 (module
