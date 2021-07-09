@@ -2,7 +2,7 @@
 
 You are given a partially-exposed RSA private key encoded in ASN.1 DER base64 format and are required to recover the key and connect to the SSH server provided.
 
-To get the key I uploaded `blurred.png` to an online OCR and manually checked each byte. After having they key down, I searched for some RSA partial private key exposure attacks, and happily was left with [this from Cryptohack](https://blog.cryptohack.org/twitter-secrets), of which this challenge is a near exact replica.
+To get the key I uploaded ![blurred.png](https://i.imgur.com/308PNIK.png) to an online OCR and manually checked each byte. After having they key down, I searched for some RSA partial private key exposure attacks, and happily was left with [this from Cryptohack](https://blog.cryptohack.org/twitter-secrets), of which this challenge is a near exact replica.
 
 Here is the partial key:
 ```

@@ -22,9 +22,7 @@ Hill cipher use a matrice n x n as key wich is similar to the encryption key in 
 
 Let's decode the Hill ciphertext with the key matrice 3x3 i'll use https://www.dcode.fr/hill-cipher 
 
-![image](https://user-images.githubusercontent.com/72421091/122655792-36fa6a80-d14d-11eb-88ac-272df127ef6d.png)
-
-
+![image](https://i.imgur.com/z15diyh.png)
 
 
 ### Flag
@@ -35,11 +33,11 @@ flag{climb_your_way_to_the_top}
 
 ## OR
 
-![](https://i.imgur.com/pPTp4fp.jpg)
+![](https://i.imgur.com/6CwPFUH.jpg)
 
 A bit of research took me to hill cipher. 
 
-![](https://i.imgur.com/gyrkabO.jpg)
+![](https://i.imgur.com/ixuxTUr.jpg)
 
 ### Flag
 

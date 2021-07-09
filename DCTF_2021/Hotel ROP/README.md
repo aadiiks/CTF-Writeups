@@ -22,16 +22,16 @@ To find the offset for overflowing the buffer I just kept running `perl -e 'prin
 
 Looking at `california` (offset `0x11dc`) and `silicon_valley` (offset `0x1283`) in Radare2, I notice that they write something to various offsets of some memory address called `win_land` in byte increments. Looking more closely, in `california`  those bytes are "/", "b", "i" and "n", and in `silicon_valley` are "/", "s" and "h". As there is also a counter called `len` in the stack used for storing offsets, calling `california` then `silicon_valley` writes first `/bin`, then `/sh` to successive bytes in `win_land`, thus getting you the string `/bin/sh` to call `system("/bin/sh")` on.
 
-![California](california.png)
+![California](https://i.imgur.com/sjG9ukk.png)
 
-![Silicon Valley](silicon_valley.png)
+![Silicon Valley](https://i.imgur.com/vD8LOrg.png)
 
 
 Well, that was easy.
 
 Looking at the disassembly of the function `loss` in Radare2, I see that towards the end it runs `system(win_land)` if you pass a few complicated tests on the arguments to the function:
 
-![Loss function](loss.png)
+![Loss function](https://i.imgur.com/LR4ieQt.png)
 
 However, you can skip all these complicated tests and go right to the `lea rdi, obj.win_land` instruction at `0x11c3`, which puts `win_land` into the `rdi` register and calls `system()` with that as the argument.
 

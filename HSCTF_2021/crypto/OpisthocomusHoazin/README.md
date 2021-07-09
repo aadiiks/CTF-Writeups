@@ -74,7 +74,7 @@ We can see the each vale in ct list is actually the n modulus(%) of the XOR (^) 
 
 We can verify it here, by encoding first letter of the flag i.e. “f”  and this is also the first letter in the ct list:
 
-![](https://i.imgur.com/RNRzeqQ.png)
+![](https://i.imgur.com/86NvAgB.png)
 
 
 Now I have written a small script which encode out all the characters that can be used in the flag:
@@ -92,7 +92,7 @@ for i in range(len(chr_set)):
 I also made a lookup.txt dictionary with all the elements of the ct list
 Now i used grep to get the elements we want form the script output:
 
-![](https://i.imgur.com/T15GvI8.png)
+![](https://i.imgur.com/w2xWtjK.png)
 
 Now i used Sublime text to replace all the values with there specific letters to get the flag
 

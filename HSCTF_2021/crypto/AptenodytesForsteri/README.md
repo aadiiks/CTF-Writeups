@@ -69,7 +69,7 @@ So i made a flag.txt file with all charaters A-Z in the flag format.
 flag{ABCDEFGHIJKLMNOPQRSTUVWXYZ}
 ```
 
-![](https://i.imgur.com/1Aa0Lre.png)
+![](https://i.imgur.com/JzFnjsM.png)
 
 
 Now i got the perspective encoded values of each letter so now I can compare it with the output.txt string.
@@ -84,7 +84,7 @@ Q W E R T Y U I O P
 
 We can verify it by passing the flag we have in the flag.txt file and see if it matches with output.txt
 
-![](https://i.imgur.com/EB638Lz.png)
+![](https://i.imgur.com/T0dgTtE.png)
 
 It matches hence we have the right flag.
 

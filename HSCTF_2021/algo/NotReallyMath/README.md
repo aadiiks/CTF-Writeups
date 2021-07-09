@@ -74,7 +74,7 @@ while flagfound == False:
         flagfound = False
 ```
 
-![](https://i.imgur.com/Id6cKFI.png)
+![](https://i.imgur.com/JzFnjsM.png)
 
 ### Flag
 
