@@ -4,7 +4,7 @@
 
 It doesn't really look like gold to me...
 
-[pallets-of-gold.png](pallets-of-gold.png)
+![pallets-of-gold.png](https://i.imgur.com/4Bcc1ZP.png)
 
 ## Detailed solution
 
@@ -45,13 +45,13 @@ Challenge name pallets is refering to colour palette (bitmap)
 
 Let's use stegonline to check for colour palette https://stegonline.georgeom.net/upload 
 
-![image](https://user-images.githubusercontent.com/72421091/122659033-4d172380-d16b-11eb-98bd-dcd6e196e317.png)
+![image](https://i.imgur.com/rIhaxrr.png)
 
 Let's browse colour palette
 
-![image](https://user-images.githubusercontent.com/72421091/122659061-8fd8fb80-d16b-11eb-9ce4-13f783056975.png)
+![image](https://i.imgur.com/o1dEqpD.png)
 
-![image](https://user-images.githubusercontent.com/72421091/122659073-98313680-d16b-11eb-85b5-424f53867f3c.png)
+![image](https://i.imgur.com/5DNpOmA.png)
 
 We can see our flag 
 
@@ -71,7 +71,7 @@ open it via stegsolv
 ```bash
 java -jar /opt/stegsolve.jar
 ```
-![](https://i.imgur.com/AFp8RpN.png)
+![](https://i.imgur.com/C1DyoU2.png)
 
 ###Flag
 

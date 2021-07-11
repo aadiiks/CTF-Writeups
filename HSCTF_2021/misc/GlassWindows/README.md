@@ -5,7 +5,7 @@
 I found a cool glass texture.
 
 
-[glass-windows.png](glass-windows.png)
+[glass-windows.png](https://i.imgur.com/5DNpOmA.png)
 
 ## Detailed Solution
 
@@ -47,7 +47,7 @@ Let's use Stegsolve https://github.com/zardus/ctf-tools/blob/master/stegsolve/in
 colour inversion(xor) show the flag image  
 
 
-![solved](https://user-images.githubusercontent.com/72421091/122659336-13e0b280-d16f-11eb-87ce-fdd21f29dbda.png)
+![solved](https://i.imgur.com/7iBCL3u.png)
 
 
 ## Flag

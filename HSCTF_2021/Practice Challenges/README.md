@@ -1,15 +1,11 @@
 # Practice challenges
 https://hsctf.com/#slide-5
 
-![image](https://user-images.githubusercontent.com/72421091/122653582-6903d080-d13d-11eb-9a7d-b02a10f37655.png)
+![image](https://i.imgur.com/ehWEDhZ.png)
 
 
 
 # Challenge Name: Cryptography
-
-![date](https://img.shields.io/badge/date-14.06.2021-brightgreen.svg)  
-![crypto category](https://img.shields.io/badge/category-Cryptography-blueviolet.svg)   
-
 
 ## Description
 
@@ -29,7 +25,7 @@ The ciphertext is likely **Vigenere Cipher**
 
 Let's decode it with https://www.dcode.fr/vigenere-cipher with automatic decryption 
 
-![image](https://user-images.githubusercontent.com/72421091/122653104-7b303f80-d13a-11eb-9390-3a5b74b00bbc.png)
+![image](https://i.imgur.com/Yabnqt9.png)
 
 We found our original text with the key **COMPSCI**  
 
@@ -40,10 +36,6 @@ icanbr3akc0d3s
 ```
 
 # Challenge Name: Reverse Engineering
-
-![date](https://img.shields.io/badge/date-14.06.2021-brightgreen.svg)  
-![reverse category](https://img.shields.io/badge/category-Reverse-blueviolet.svg)   
-
 
 ## Description  
 
@@ -101,16 +93,9 @@ cs_iz_c001
 
 # Challenge Name: Recon
 
-![date](https://img.shields.io/badge/date-14.06.2021-brightgreen.svg)  
-![Misc category](https://img.shields.io/badge/category-Misc-blueviolet.svg)   
-
-
 ## Description
 
-
-
-
-[sample-recon.jpg](sample-recon.jpg)
+![sample-recon.jpg](https://i.imgur.com/izjJFMe.jpg)
 
 ## Detailed solution
 
@@ -149,7 +134,7 @@ Megapixels                      : 4.3
 ```
 Zooming at image 
   
-![image](https://user-images.githubusercontent.com/72421091/122653464-81bfb680-d13c-11eb-8ba7-07e561de1e6e.png)
+![image](https://i.imgur.com/3WY7Dtl.jpg)
 
 ``` The blank is the key. I made a program to calculate _______ numbers ```  
 

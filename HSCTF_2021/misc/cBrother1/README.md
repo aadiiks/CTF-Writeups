@@ -5,21 +5,21 @@
 The challenge mentions a user like `AC01010` and `JC01010` in the HSCTF discord server
 - Finding the user was easy :
 
-![](https://i.imgur.com/bqNUuM3.png)
+![](https://i.imgur.com/FMpZg7q.png)
 
 - In discord users can add some links of their social media for other people to see, here I found the YouTube channel of `BC01010` :
 
-![](https://i.imgur.com/ebXCPIe.png)
+![](https://i.imgur.com/vYSrAua.png)
 
 - There are no videos in the channel so we cannot see the watermark directly
 - At first we thought that we can get it by using the YouTube API but it only offers to set or remove a watermark from our own profile
 - So I searched for channels which use watermark in their videos and landed on `Motherboard`
 
-![](https://i.imgur.com/6j6Jqf0.png)
+![](https://i.imgur.com/nMgSnUX.png)
 
 - Motherboard uses a `subscribe` image as their watermark, next I checked the files loaded in YouTube to check if this image was also loaded :
 
-![](https://i.imgur.com/WWhm3sI.png)
+![](https://i.imgur.com/KTZ2XID.png)
 
 - Now we have the URL through which the watermark is being loaded :
 
@@ -42,4 +42,4 @@ Channel   : https://www.youtube.com/channel/UCqZq81jZcdjAHQJ3UtAbdaA
 Watermark : https://i.ytimg.com/an/qZq81jZcdjAHQJ3UtAbdaA/featured_channel.jpg
 ```
 
-![](https://i.imgur.com/q0B8qxd.png)
+![](https://i.imgur.com/9PH2n1S.png)

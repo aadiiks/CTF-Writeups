@@ -159,10 +159,7 @@ for _ in range(12):
                     ff1 = ff1[:-1]
  ```                  
 
-![image](https://user-images.githubusercontent.com/72421091/122679917-c141dd80-d1e4-11eb-812a-f761f1b00297.png)
-
-
-
+![image](https://i.imgur.com/SWvCoqP.png)
 
 ## Flag
 

@@ -4,7 +4,7 @@
 Simply login as `admin` using password `admin`
 Go to the simple quiz section and here we have the flag.
 
-![](https://i.imgur.com/ppinHMz.png)
+![](https://i.imgur.com/qyHV6sD.png)
 
 ### Flag
 

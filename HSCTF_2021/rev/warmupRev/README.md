@@ -123,9 +123,7 @@ public class WarmupRev {
 }
 ```
 
-![image](https://user-images.githubusercontent.com/72421091/122682745-27356180-d1f3-11eb-8732-ee3038ed9fd6.png)
-
-
+![image](https://i.imgur.com/oN1El1L.png)
 
 ## Flag
 

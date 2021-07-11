@@ -4,17 +4,17 @@
 
 There are at least two types of randomizers in Java, one that is purely random and one that is seeded (that is pseudorandom). Please fix this code to output the correct flag (note the flag format, and a sample has been provided).
 
-![](https://i.imgur.com/UC98nFA.png)
+![](https://i.imgur.com/6xLgJii.png)
 
 ## Detailed solution
 
 Basically, in java theres 2 ways to randomize number, 1-truly random 2-fake random (can give u the same thing given a specific SEED value) 
 
-![](https://i.imgur.com/D5cuDLY.png)
+![](https://i.imgur.com/GHSVggC.png)
 with the SEED random, u can guess the next random numbers, no matter how many times u run it, its the same
 
 Heres how it acts without the seed
-![](https://i.imgur.com/CXCKHKB.png)
+![](https://i.imgur.com/tRmCNyh.png)
 in short, 
 random() returns a random number
 random(x) where x is the seed, will return a psudo-random, meaning u can predict/know the pattern cuz its the same everytime

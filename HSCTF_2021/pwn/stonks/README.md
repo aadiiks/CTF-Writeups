@@ -1,12 +1,12 @@
-![](https://i.imgur.com/Xthi7zA.png)
+![](https://i.imgur.com/4TQlAAb.png)
 
 * after disassembling :
 
-![](https://i.imgur.com/sUMBjXD.png)
+![](https://i.imgur.com/kWPHsUD.png)
 
 * vuln function disassembled :
 
-![](https://i.imgur.com/u5piK7j.png)
+![](https://i.imgur.com/3vtnhI6.png)
 
 * gets is used, lets calculate the offset at which it crashes :
 
@@ -24,7 +24,7 @@ print(offset)
 
 OUTPUT :
 
-![](https://i.imgur.com/QLOSyKX.png)
+![](https://i.imgur.com/lnJzUdv.png)
 
 * offset is 40
 
@@ -34,11 +34,11 @@ OUTPUT :
 info functions
 ```
 
-![](https://i.imgur.com/0WKx65a.png)
+![](https://i.imgur.com/Exr3Lpn.png)
 
 * when we checked `ai_debug` we found that it has a system call!
 
-![](https://i.imgur.com/ONyEGVn.png)
+![](https://i.imgur.com/dkIt84r.png)
 
 * then we checked what its doing :
 
@@ -50,13 +50,13 @@ jump ai_debug
 
 OUTPUT :
 
-![](https://i.imgur.com/PIRlX9z.png)
+![](https://i.imgur.com/GNtmC13.png)
 
 * it is executing `/usr/bin/dash` so we can get a shell if we can call ai_debug function
 
 * Address of ai_debug :
 
-![](https://i.imgur.com/GNc8x6K.png)
+![](https://i.imgur.com/RJKtmm1.png)
 
 Exploit :
 
@@ -92,7 +92,7 @@ conn.interactive()
 
 OUTPUT :
 
-![](https://i.imgur.com/FN6LiSU.png)
+![](https://i.imgur.com/hvb09bs.png)
 
 ### Flag
 

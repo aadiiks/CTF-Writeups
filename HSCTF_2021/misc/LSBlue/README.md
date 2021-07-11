@@ -4,7 +4,7 @@
 
 Orca watching is an awesome pastime of mine!
 
-[lsblue.png](lsblue.png)
+![lsblue.png](https://i.imgur.com/L279E4R.png)
 
 ## Detailed solution
 
@@ -43,7 +43,7 @@ The filename has a hint LSB + Blue so we have LSB steganography in PNG.
   
 Let's use [zsteg](https://github.com/zed-0xff/zsteg) to find hidden data 
 
-![image](https://user-images.githubusercontent.com/72421091/122654423-25ac6080-d143-11eb-999f-dfe846dafb89.png)
+![image](https://i.imgur.com/yL8wUtK.png)
 
 As we can see the payload **b1,b,lsb,xy** give us the flag  
 
@@ -59,7 +59,7 @@ open it via stegsolv ans use the LSB function
 ```bash
 java -jar /opt/stegsolve.jar
 ```
-![](https://i.imgur.com/o5UiNJZ.png)
+![](https://i.imgur.com/TKZtfKM.png)
 
 
 ### Flag

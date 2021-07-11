@@ -14,11 +14,11 @@ Server code is attached (slightly modified).
 
 Start by opening the challenge link https://message-board.hsc.tf/  
 
-![image](https://user-images.githubusercontent.com/72421091/122657103-4cc15d00-d158-11eb-91f5-efc9767c5bf3.png)
+![image](https://i.imgur.com/3vM0W8A.png)
 
 We have a login page https://message-board.hsc.tf/login  
 
-![image](https://user-images.githubusercontent.com/72421091/122657152-c8230e80-d158-11eb-9df6-182658900f84.png)
+![image](https://i.imgur.com/iLWhsUS.png)
 
 It's a normal login form that use POST request  
 
@@ -115,7 +115,7 @@ As we can users has **kupatergent** and admin, the password and userID for the a
 
 So we have only the login ```kupatergent:gandal``` 
 
-![image](https://user-images.githubusercontent.com/72421091/122657442-7c259900-d15b-11eb-802a-4342bb8975ef.png)
+![image](https://i.imgur.com/PApyqmJ.png)
 
 After login in using ```kupatergent:gandal``` we can the message no flag for you 
 
@@ -171,7 +171,7 @@ for i in range(0, 999):
         break
 ``` 
 
-![image](https://user-images.githubusercontent.com/72421091/122657971-20114380-d160-11eb-882d-d16ef7934b58.png)
+![image](https://i.imgur.com/fb65OaS.png)
 
 
 We got admin userID which is 768 and the flag 
@@ -192,14 +192,14 @@ I logged in using the given credentials.
 
 Found a cookie named userData with userID and username
 
-![](https://i.imgur.com/HZzaAdD.png)
+![](https://i.imgur.com/gcZthM9.png)
 
 here userID is `972` and username is `kupatergent`
 
 Now i started looking into the given server code files and in one of the files named app.js
 i found this:
 
-![](https://i.imgur.com/SuX3MTK.png)
+![](https://i.imgur.com/EwHdN4D.png)
 
 that indicates that we don’t need password for admin access we just need the correct user id.
 
@@ -208,19 +208,19 @@ So, now i fired up BurpSuite sent the request with cookie to the intruder replac
 ```
 Cookie: userData=j%3A%7B%22userID%22%3A%22§9§%22%2C%22username%22%3A%22admin%22%7D
 ```
-![](https://i.imgur.com/YcqzWor.png)
+![](https://i.imgur.com/htFr2IA.png)
 
 Payload settings:
 
-![](https://i.imgur.com/hvg4MID.png)
+![](https://i.imgur.com/vs6kf6S.png)
 
 Also set up a grep match for flag{ as that is the starting of the flag
 
-![](https://i.imgur.com/5VF3VGA.png)
+![](https://i.imgur.com/YJmEAdV.png)
 
 And now we have to look for a ticked checkbox for flag{ and in the response section of that response we have the flag
 
-![](https://i.imgur.com/4K3oZKR.png)
+![](https://i.imgur.com/sBY1hJl.png)
 
 here we have the flag, we can confirm it on the website by changing the cookie values:
 
@@ -229,7 +229,7 @@ userID = 768
 username = admin
 ```
 
-![](https://i.imgur.com/loSsK8P.png)
+![](https://i.imgur.com/mGrqaU2.png)
 
 
 ```
